@@ -4,7 +4,7 @@ import Product from '../product/Product';
 import './Shop.css';
 
 const Shop = () => {
-    const product10 = fakeData.slice(0,10);
+    const product10 = fakeData.slice(0, 10);
     const [products, setProducts] = useState(product10);
     return (
         <div className="shop-container">
